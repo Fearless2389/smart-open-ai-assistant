@@ -62,15 +62,9 @@ streamlit run app.py
 
 Then open `http://localhost:8501` in your browser.
 
----
 
-## 🖼️ Screenshots
 
-| Chat Mode                   | Image Mode                   | PDF QA                     |
-| --------------------------- | ---------------------------- | -------------------------- |
-| ![chat](assets/sample1.png) | ![image](assets/sample2.png) | ![rag](assets/sample3.png) |
 
----
 
 ## 🔧 Folder Structure
 
