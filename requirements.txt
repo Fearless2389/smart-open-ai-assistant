@@ -1,28 +1,26 @@
 # Core UI
 streamlit==1.35.0
 
-# Hugging Face Transformers (for chat & vision)
+# Hugging Face Transformers + embeddings
 transformers==4.41.1
 torch>=2.0.0
 sentence-transformers==2.7.0
 
-# RAG + Document parsing
-faiss-cpu==1.7.4
-PyMuPDF==1.23.25
+# RAG + PDFs (cleaner library than PyMuPDF for hosting)
+pdfminer.six==20221105
 
-# Voice Input/Output
+# Vector similarity (lightweight alt to FAISS for now)
+scikit-learn==1.5.0
+
+# Voice
 SpeechRecognition==3.10.1
 gTTS==2.5.1
 pydub==0.25.1
 
-# Vision (e.g., BLIP models)
+# Vision
 Pillow==10.3.0
 opencv-python-headless==4.9.0.80
 
-# General utilities
+# General
 numpy==1.26.4
-scikit-learn==1.5.0
 requests==2.32.2
-
-# Optional: prevent SSL errors
-certifi==2024.2.2
