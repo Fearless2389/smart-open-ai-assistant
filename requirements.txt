@@ -1,15 +1,28 @@
+# ✅ UI & App
 streamlit==1.35.0
+
+# ✅ Transformers & Models
 transformers==4.41.1
 torch==2.1.2
 sentence-transformers==2.7.0
+
+# ✅ PDF Parsing for RAG
 pdfminer.six==20221105
+
+# ✅ Simple Vector Search (FAISS alternative)
 scikit-learn==1.3.2
 numpy==1.26.4
+
+# ✅ Voice
 gTTS==2.5.1
 SpeechRecognition==3.10.1
 pydub==0.25.1
 playsound==1.3.0
+
+# ✅ Image Processing
 opencv-python-headless==4.7.0.72
 Pillow==10.2.0
+
+# ✅ Helpers
 requests==2.32.0
 tenacity==8.2.3
