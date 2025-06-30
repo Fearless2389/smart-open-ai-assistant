@@ -1,24 +1,15 @@
-# Core
 streamlit==1.35.0
-numpy==1.26.4
-requests==2.32.2
-
-# Language Models
-transformers==4.40.0
+transformers==4.41.1
 torch==2.1.2
 sentence-transformers==2.7.0
-
-# PDF Parsing (lightweight alt to PyMuPDF)
 pdfminer.six==20221105
-
-# Simple Vector Search
 scikit-learn==1.3.2
-
-# Voice
+numpy==1.26.4
 gTTS==2.5.1
 SpeechRecognition==3.10.1
 pydub==0.25.1
-
-# Vision
+playsound==1.3.0
+opencv-python-headless==4.7.0.72
 Pillow==10.2.0
-opencv-python-headless==4.7.0.72  # older = faster install
+requests==2.32.0
+tenacity==8.2.3
