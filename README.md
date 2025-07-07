@@ -8,12 +8,6 @@
 A full-featured, modular AI assistant built with Python, Streamlit, and Hugging Face.  
 Supports chat, voice, image understanding, file-based RAG (document Q&A), and personas like coder, motivator, or study buddy.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Open Source](https://img.shields.io/badge/Open--Source-Yes-success)
-
----
 
 ## 🚀 Features
 
